@@ -1,4 +1,4 @@
-# Using Vector Data Base for RAG for Retreval Improvement
+# Using Vector Data Base for RAG for Retrieval Improvement
 
 This project explores the use of vector databases to improve Retrieval-Augmented Generation (RAG) systems. By leveraging vector databases, we aim to enhance the retrieval phase of RAG, leading to more accurate and relevant results in generation tasks.
 
@@ -39,7 +39,7 @@ Install the required libraries using pip:
 
 ```bash
 pip install sentence-transformers datasets pinecone-client cohere tqdm numpy pandas nltk
+```
 
 ## Dataset
-The dataset we utelize in the project is 'aav-ds/Israel-HAMAS_war_news' from HuggingFace Datasets.
-Link for the data: https://huggingface.co/datasets/aav-ds/Israel-HAMAS_war_news
+The dataset used in this project is 'aav-ds/Israel-HAMAS_war_news' from HuggingFace Datasets. You can access the data [here](https://huggingface.co/datasets/aav-ds/Israel-HAMAS_war_news).
